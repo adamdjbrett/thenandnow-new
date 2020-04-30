@@ -1,5 +1,6 @@
-# urban-theme
+# Then & Now
+## Possible new site for Then & Now
 
-This theme is a Jekyll port of http://erosie.net/ with some modifications. It is designed for visual artists.
-
-Live-Demo: http://narkotyk.net/
+### Draft site
+- The Jekyll relative url filter is your friend
+- Fix colors, fonts, font sizes
