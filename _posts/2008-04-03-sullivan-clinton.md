@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Sullivan/Clinton Campaign'
+title: 'Sullivan/Clinton'
 date: 2008-04-03
 preview: images/sullivanclinton.png
 permalink: /sullivanclinton/

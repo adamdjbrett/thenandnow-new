@@ -12,3 +12,9 @@ logo: 'images/logo.png'
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+defaults:
+  - scope:
+      path: "/videos/"
+    values:
+      video: true

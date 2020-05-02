@@ -22,14 +22,15 @@
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
+	background-color: #111111;
 }
 
 // Default body styles
 body {
 	color: $color-secondary;
-	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-	font-size: 1.6em; // Currently ems cause chrome bug misinterpreting rems on body element
-	font-weight: 300;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 2em; // Currently ems cause chrome bug misinterpreting rems on body element
+	font-weight: 500;
 	letter-spacing: .01em;
 	line-height: 1.6;
 }
