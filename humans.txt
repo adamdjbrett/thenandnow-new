@@ -1,0 +1,43 @@
+---
+layout: null
+source: "http://humanstxt.org/Standard.html"
+permalink: /humans.txt
+exclude: true
+---
+/* TEAM */
+
+Director/Author: Robert Spiegelman
+Contact: bob@sullivanclinton.com
+Web: thenandnow.us
+From: NYC
+
+Hosted by: Indigenous Values Initiative
+Web: https://www.indigenousvalues.org
+Twitter: @indigenousVI
+
+Webmaster: Adam DJ Brett
+Contact: adam [at] adamdjbrett.com
+Twitter: @__adjb
+Web: Adamdjbrett.com | adamdj.tel
+From: Syracuse University, Syracuse, NY
+
+
+/* THANKS */
+
+github: @midzer
+dite: https://midzer.de/
+theme: https://github.com/midzer/urban-theme
+description: Jekyll Urban theme is a Jekyll port of http://erosie.net/ with modifications
+
+Added Components:
+Name: Moritz Sauer
+Role: Ruby/Jekyll-izer of plugin free atom.xml, feed.xml, robots.txt, humans.txt
+Site: http://mo.phlow.de/
+
+
+/* SITE */
+
+Last Updated: {{ site.time | date:"%Y/%m/%d" }}
+Standards: HTML5, CSS3
+Software: Atom, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
+Components: Foundation Framework, Modernizr, jQuery, Backstretch.js, Reveal
