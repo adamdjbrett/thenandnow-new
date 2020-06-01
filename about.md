@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about/
 ---
 This is a great saga, rescued from the depths of recent history. While it took a decade to put this Humpty-Dumpty back together again, its lessons are now yours to discover…
