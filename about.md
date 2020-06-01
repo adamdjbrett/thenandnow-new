@@ -14,7 +14,7 @@ Today, as the Anglosphere embarks on its second Gilded Age, these fateful lesson
 Learn more about Bob Spiegelman on his [bio](http://www.sullivanclinton.com/bio/)
 
 Explore the project:
- - [Sullivanclinton.com](http://www.sullivanclinton.com "Sullivan-Clinton Campaign")
- - [Derryveagh.com](http://www.derryveagh.com "Derryveagh Evictions")
- - [Stakedplains.com](http://www.stakedplains.com "Staked Plains")
+ - [Sullivan-Clinton Campaign](http://www.sullivanclinton.com "Sullivan-Clinton Campaign")
+ - [Derryveagh Evictions](http://www.derryveagh.com "Derryveagh Evictions")
+ - [Staked Plains](http://www.stakedplains.com "Staked Plains")
  - [Download the intro video](/vidoes/intro.mp4)
