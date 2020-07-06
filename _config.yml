@@ -9,11 +9,11 @@ url: "https://thenandnow.theological.me" # the base hostname & protocol for your
 twitter_username: indigenousvalues
 github_username:  adamdjbrett
 sullivanclinton_name: "Sullivan-Clinton"
-sullivanclinton_website: "sullivanclinton.com"
+sullivanclinton_website: "sullivanclinton.theological.me"
 derryveagh_name: "Derryveagh Evictions"
-derryveagh_website: "derryveagh.com"
+derryveagh_website: "derryveagh.theological.me"
 stakedplains_name: "Staked Plains"
-stakedplains_website: "stakedplains.com"
+stakedplains_website: "demo.theological.me"
 logo: 'images/logo.png'
 
 # Build settings
