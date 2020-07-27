@@ -3,9 +3,9 @@ title: 'Then & Now'
 subtitle: 'Tracing Dispossession'
 email: bob@sullivanclinton.com
 description: > # this means to ignore newlines until "baseurl:"
-  The <em><a href="http://thenandnow.us">Then and Now</a></em> project examines three case studies of dispossession.
+  The <em><a href="http://www.thenandnow.us">Then and Now</a></em> project examines three case studies of dispossession.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thenandnow.theological.me" # the base hostname & protocol for your site
+url: "https://www.thenandnow.us" # the base hostname & protocol for your site
 twitter_username: indigenousvalues
 github_username:  adamdjbrett
 sullivanclinton_name: "Sullivan-Clinton"
