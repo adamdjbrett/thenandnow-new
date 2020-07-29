@@ -16,5 +16,5 @@ Learn more about Bob Spiegelman on his [bio](http://www.sullivanclinton.com/bio/
 Explore the project:
  - [Sullivan-Clinton Campaign](https://sullivanclinton.theological.me "Sullivan-Clinton Campaign")
  - [Derryveagh Evictions](https://derryveagh.theological.me "Derryveagh Evictions")
- - [Staked Plains](https://demo.theological.me "Staked Plains")
+ - [Staked Plains](https://www.stakedplains.com "Staked Plains")
  - [Download the intro video](/vidoes/intro.mp4)
