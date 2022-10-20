@@ -32,6 +32,9 @@ defaults:
     values:
       layout: page
      
+# Reading Files
+include:
+  - _pages
 
 plugins:
   - jekyll-seo-tag
