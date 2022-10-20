@@ -25,6 +25,13 @@ defaults:
       path: "/videos/"
     values:
       video: true
+   # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: page
+     
 
 plugins:
   - jekyll-seo-tag
