@@ -13,6 +13,19 @@ Today, as the Anglosphere embarks on its second Gilded Age, these fateful lesson
 
 Learn more about Bob Spiegelman on his [bio](http://www.sullivanclinton.com/bio/)
 
+## Commissioned Art Work
+Artwork that Bob Spiegelman had commissioned.
+
+![The Ramming of the Irish](/images/ramming-irish.jpg) 
+![The Slaughter of Cheyenne](/images/slaughter-of-Cheyenne.jpg)
+
+## Explore the project:
+ - [Sullivan-Clinton Campaign](https://www.sullivanclinton.com "Sullivan-Clinton Campaign")
+ - [Derryveagh Evictions](https://www.derryveagh.com "Derryveagh Evictions")
+ - [Staked Plains](https://www.stakedplains.com "Staked Plains")
+ - [Download the intro video](/vidoes/intro.mp4)
+
+
 ## Contact us
 
 <form id="contactform" action="https://formspree.io/f/xpznyloy" method="post"> <!--UPDATE ACTION-->
@@ -36,9 +49,3 @@ Learn more about Bob Spiegelman on his [bio](http://www.sullivanclinton.com/bio/
 	<p><input type="submit" value="Submit" /> <input type="reset" value="Reset" name="reset" /></p>
 </form>
 
-
-Explore the project:
- - [Sullivan-Clinton Campaign](https://www.sullivanclinton.com "Sullivan-Clinton Campaign")
- - [Derryveagh Evictions](https://www.derryveagh.com "Derryveagh Evictions")
- - [Staked Plains](https://www.stakedplains.com "Staked Plains")
- - [Download the intro video](/vidoes/intro.mp4)
