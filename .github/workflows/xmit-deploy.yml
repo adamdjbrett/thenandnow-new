@@ -1,4 +1,4 @@
-name: Deploy Eleventy to XMIT
+name: Deploy Jekyll to XMIT
 
 on:
   push:
@@ -27,16 +27,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: 20
+          ruby-version: '3.1'
+          bundler-cache: true
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build Eleventy site
-        run: npm run build
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
 
       - name: Verify build output
         run: |
@@ -45,6 +43,9 @@ jobs:
             exit 1
           fi
           ls -1 _site | head -n 20
+
+      - name: Install XMIT CLI
+        run: gem install xmit
 
       - name: Deploy to XMIT (CLI)
         env:
@@ -64,7 +65,7 @@ jobs:
             exit 1
           fi
           echo "Deploying _site to $XMIT_SITE via XMIT CLI";
-          npx -y @xmit.co/xmit "$XMIT_SITE" _site || { echo 'XMIT deploy failed' >&2; exit 1; }
+          xmit "$XMIT_SITE" _site || { echo 'XMIT deploy failed' >&2; exit 1; }
 
       - name: Post-deploy summary
         run: |
