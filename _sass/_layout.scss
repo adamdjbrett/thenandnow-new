@@ -53,6 +53,28 @@
 }
 
 /**
+ * Video Hero Section
+ */
+.video-hero {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 100%;
+    margin: 0 auto;
+    
+    video {
+        width: 100%;
+        max-width: 80rem;
+        height: auto;
+        border: 1px solid $grey-color-light;
+        border-radius: 0.4rem;
+        box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    }
+}
+
+/**
  * Misc
  */
 .preview-panel {

@@ -1,0 +1,12 @@
+{% if page.video %}
+<section class="video-hero">
+  <div class="video-container">
+    <video controls preload="metadata" poster="{{ page.video.poster | default: '/images/video-poster.jpg' | relative_url }}">
+      <source src="{{ page.video.media | relative_url }}" type="video/webm">
+      <source src="{{ page.video.mp4 | relative_url }}" type="video/mp4">
+      <source src="{{ page.video.ogg | relative_url }}" type="video/ogg">
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="{{ page.video.mp4 | relative_url }}">link to the video</a> instead.</p>
+    </video>
+  </div>
+</section>
+{% endif %}
