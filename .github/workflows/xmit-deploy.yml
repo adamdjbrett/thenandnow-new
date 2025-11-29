@@ -30,7 +30,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3'
           bundler-cache: true
 
       - name: Build Jekyll site
@@ -44,8 +44,10 @@ jobs:
           fi
           ls -1 _site | head -n 20
 
-      - name: Install XMIT CLI
-        run: gem install xmit
+      - name: Setup Node.js (for XMIT CLI)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
       - name: Deploy to XMIT (CLI)
         env:
@@ -65,7 +67,7 @@ jobs:
             exit 1
           fi
           echo "Deploying _site to $XMIT_SITE via XMIT CLI";
-          xmit "$XMIT_SITE" _site || { echo 'XMIT deploy failed' >&2; exit 1; }
+          npx -y @xmit.co/xmit "$XMIT_SITE" _site || { echo 'XMIT deploy failed' >&2; exit 1; }
 
       - name: Post-deploy summary
         run: |
