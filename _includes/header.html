@@ -1,5 +1,5 @@
 <header class="site-header">
-  <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo"></a>
+  <a class="site-title{% if page.url == '/' %} u-url p-name{% endif %}" href="{{ site.baseurl }}/"><img src="{{ site.logo | relative_url }}" alt="{{ site.title | escape }}"></a>
 
   <nav class="navbar">
     <ul>

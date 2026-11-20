@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /credits.txt
+sitemap: false
+---
+{{ site.title }} — {{ site.subtitle }}
+{{ '/' | absolute_url }}
+
+Project creator and director: Robert Spiegelman
+Biography: https://sullivanclinton.com/bio/
+Project sponsor: Indigenous Values Initiative — https://indigenousvalues.org/
+Web development and administration: Adam DJ Brett — https://adamdjbrett.com/
+Technical and theme credits: {{ '/humans.txt' | absolute_url }}

@@ -3,9 +3,9 @@ title: 'Then & Now'
 subtitle: 'Tracing Dispossession'
 email: bob@sullivanclinton.com
 description: > # this means to ignore newlines until "baseurl:"
-  The <em><a href="http://www.thenandnow.us">Then and Now</a></em> project examines three case studies of dispossession.
+  The Then and Now project examines three case studies of dispossession.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.thenandnow.us" # the base hostname & protocol for your site
+url: "https://thenandnow.us" # the base hostname & protocol for your site
 twitter_username: indigenousvalues
 github_username:  adamdjbrett
 sullivanclinton_name: "Sullivan-Clinton"
@@ -15,6 +15,10 @@ derryveagh_website: "www.derryveagh.com"
 stakedplains_name: "Staked Plains"
 stakedplains_website: "www.stakedplains.com"
 logo: 'images/logo.png'
+lang: en-US
+author:
+  name: Robert Spiegelman
+  uri: https://sullivanclinton.com/bio/
 
 # Build settings
 markdown: kramdown
@@ -35,6 +39,8 @@ defaults:
 # Reading Files
 include:
   - _pages
+exclude:
+  - changelog.md
 
 plugins:
   - jekyll-seo-tag
